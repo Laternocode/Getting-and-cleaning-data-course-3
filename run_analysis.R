@@ -6,9 +6,6 @@ library(plyr)
 library(data.table)
 library(tidyr)
 
-##set the right working directory
-setwd("C:/Users/Gert-Jan/Documents/Datascience/Course 3 Getting and Cleaning Data")
-
 ## create "data" directory if needed
 if(!file.exists("data")){
   dir.create("data")
